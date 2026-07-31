@@ -1,18 +1,53 @@
-# React + Vite
+# Proyecto Testimonios de freeCodeCamp (React + Vite)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este proyecto es una clonación de la sección de testimonios de **freeCodeCamp**, desarrollado como un taller práctico para aprender los conceptos iniciales de **React**, el uso de **Componentes** reutilizables y el paso de información mediante **Props**.
 
-Currently, two official plugins are available:
+## 🚀 Descripción del Proyecto
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+La aplicación muestra una lista de testimonios de estudiantes que cambiaron sus carreras gracias a freeCodeCamp (Shawn Wang, Sarah Chima y Emma Bostian). 
 
-## React Compiler
+### Conceptos aplicados:
+- **Componentes React**: Creación de un componente funcional reutilizable (`Testimonial`).
+- **Props**: Paso de propiedades (`name`, `country`, `jobTitle`, `jobCompany`, `image`, `text`) al componente.
+- **Renderizado de listas**: Uso del método `.map()` para iterar sobre un arreglo de objetos de testimonios.
+- **Clean Code**: Estructura de carpetas ordenada (`components/`, `styles/`, `assets/`).
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+---
 
-Note: This will impact Vite dev & build performances.
+## 🛠️ Instalación y Ejecución Local
 
-## Expanding the ESLint configuration
+Para ejecutar este proyecto en tu máquina local, sigue estos pasos:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 1. Clonar el repositorio
+```bash
+git clone https://github.com/kvadrakola/cloneCardProject.git
+cd cloneCardProject
+```
+
+### 2. Instalar dependencias
+```bash
+npm install
+```
+
+### 3. Levantar el servidor de desarrollo
+```bash
+npm run dev
+```
+
+Abre la URL indicada en la consola (usualmente `http://localhost:5173`) en tu navegador.
+
+---
+
+## 📦 Script de Construcción (Build)
+
+Para generar la versión de producción:
+```bash
+npm run build
+```
+
+---
+
+## 🌐 Despliegue
+
+- **GitHub Repository**: [https://github.com/kvadrakola/cloneCardProject](https://github.com/kvadrakola/cloneCardProject)
+- **Vercel Deployment**: Enlace a la aplicación en Vercel (ej. `https://clone-card-project.vercel.app`)

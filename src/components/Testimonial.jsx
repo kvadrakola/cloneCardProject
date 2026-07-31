@@ -19,7 +19,7 @@ function Testimonial(props) {
                 </p>
 
                 <p className='testimonial-text'>
-                    "{props.text}"
+                    {props.text}
                 </p>
 
             </div>
