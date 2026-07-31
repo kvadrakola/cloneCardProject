@@ -1,9 +1,9 @@
-import 'src/App.css';
-import Testimonial from 'src/components/Testimonial.jsx'
+import './App.css';
+import Testimonial from './components/Testimonial.jsx'
 
-import EmmaPhoto from 'cloneCardProject/src/assets/img/EmmaPhoto.png';
-import SarahPhoto from 'cloneCardProject/src/assets/img/SarahPhoto.png';
-import ShawnPhoto from 'cloneCardProject/src/assets/img/ShawnPhoto.png';
+import EmmaPhoto from './assets/img/EmmaPhoto.png';
+import SarahPhoto from './assets/img/SarahPhoto.png';
+import ShawnPhoto from './assets/img/ShawnPhoto.png';
 
 function App() {
     return (
@@ -43,3 +43,5 @@ function App() {
     );
 
 }
+
+export default App;
